@@ -109,6 +109,10 @@ hr {
   padding:0;
   border: 0;
 }
+.hr-white{
+  border: none;
+  background-color: white;
+}
 
 /* form要素のcss全リセット */
 input,
@@ -346,8 +350,8 @@ img {
 .text-black{
   color: rgba(0, 0, 0, 1);
 }
-.bg-pic01{
-    background-image: url(../images/back-ground.png);
+.bg01{
+    background-image: url(../images/bg/bg01.jpg);
     background-size: cover;
     background-position: center;
 }
