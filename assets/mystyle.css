@@ -466,6 +466,13 @@ nav a:hover{
 @media (min-width: 1023px){
   .pc-header-logo{
     height: 4rem;
+    position: relative;
+    top: 10%;
+  }
+  .pc-header-section{
+    height: 2.5rem;
+    position: relative;
+    top: 20%;
   }
 
   .none-1023{
