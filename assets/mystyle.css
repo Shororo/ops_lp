@@ -351,9 +351,9 @@ img {
   color: rgba(0, 0, 0, 1);
 }
 .bg01{
-    background-image: url(../images/bg/bg01.jpg);
-    background-size: cover;
-    background-position: center;
+  background-image: url(../images/bg/bg01.jpg);
+  background-size: cover;
+  background-position: center;
 }
 /*カラーここまで*/
 
@@ -564,9 +564,16 @@ nav a:hover{
 .item-center{
   position: relative;
   left: 50%;
-  top: 50%;
+  top: 45%;
   transform: translate(-50%, -50%);
   width: 100%;
+}
+.item-bottom{
+ position: absolute;
+ left: 50%;
+ top: 70%;
+ transform: translate(-50%, -50%);
+ width: 100%; 
 }
 
 /*top*/
@@ -582,7 +589,7 @@ nav a:hover{
 #subImg li{
   display: inline;
   cursor: pointer;
-cursor: hand;
+  cursor: hand;
 }
 #subImg img{
   display: none;
@@ -629,8 +636,8 @@ a.btn--orange:hover {
 .teaser-koukai{
   width: 60%;
 }
-.teaser-link{
-  height: 4.5rem;
+.top-link{
+  height: 3rem;
 }
 .teaser-hp-link{
   height: 3.3rem;
@@ -829,19 +836,16 @@ hr{
 
 @media (max-width: 767px){
   a{
-  font-size: 1.2rem;
-}
-p{
-  font-size: 1.2rem;
-}
-time{
-  font-size: 1.2rem;
-}
-li{
-  font-size: 1.2rem;
-}
-  .vh-70{
-    height: 70vh !important;
+    font-size: 1.2rem;
+  }
+  p{
+    font-size: 1.2rem;
+  }
+  time{
+    font-size: 1.2rem;
+  }
+  li{
+    font-size: 1.2rem;
   }
   .cushion-logo {
     width: 70%;
@@ -899,7 +903,30 @@ li{
   .teaser-hp-link{
     height: 1.8rem;
   }
+  .item-center{
+    position: relative;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+  .item-bottom{
+   position: absolute;
+   left: 50%;
+   top: 65%;
+   transform: translate(-50%, -50%);
+   width: 100%; 
+ }
+ .top-link{
+  height: 2.5rem;
 }
+}
+
+@media (min-width: 768px){
+  .none-min-768{
+    display: none;
+  }
+  }
 
 @media (max-width: 639px){
   .movie-first{
@@ -909,9 +936,9 @@ li{
 }
 
 /*レスポンシブ*/
-@media (max-width: 769px){
-  .slide-width-100{
-    width: 100% !important;
+@media (max-width: 767px){
+  .none-max-767{
+    display: none;
   }
 }
 
@@ -1054,8 +1081,8 @@ li{
     height: 2.5rem;
   }
   #mainImg{
-  height: 59.6vw;
-}
+    height: 59.6vw;
+  }
 }
 @media (max-height: 700px){
   .mt-3{
