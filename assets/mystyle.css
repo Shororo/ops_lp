@@ -342,7 +342,7 @@ img {
   background-color: white;
 }
 .bg-black{
-  background-color: #222831;
+  background-color: black;
 }
 .bg-gray{
   background: rgba(234, 245, 247, 1);
@@ -919,6 +919,9 @@ hr{
  }
  .top-link{
   height: 2.5rem;
+}
+.lp-section{
+  height: 3rem;
 }
 }
 
