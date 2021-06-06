@@ -254,6 +254,9 @@ time{
 .pt-10{
   padding-top: 10rem;
 }
+.pt-15{
+  padding-top: 15rem;
+}
 .pt-20{
   padding-top: 20rem;
 }
@@ -969,6 +972,9 @@ hr{
   .dmt-10{
     margin-top: 10rem;
   }
+  .dmb-12{
+    margin-bottom: 12rem;
+  }
   .dmtb-8{
     margin-top: 8rem;
     margin-bottom: 8rem;
@@ -989,6 +995,9 @@ hr{
   }
   .dpt-10{
     padding-top: 10rem;
+  }
+  .dpt-20{
+    padding-top: 20rem;
   }
   .dptb-7{
     padding-top: 7rem;
